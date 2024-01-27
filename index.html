@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-7">
+        <title>Jorian's portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <style rel="stylesheet">
+            body {
+                background-color: #EAECCC;
+            }
+
+            .title {
+                font-family: 'DM Serif Display', serif;
+                border: solid;
+                color: #CD8D7A;
+                margin-bottom: 20px;
+            }
+
+            h1{
+                text-align: center;
+                margin: 10px;
+            }
+
+            h2{
+                font-family: 'DM Serif Display', serif;
+                font-weight: normal;
+                text-align: center;
+                margin: 0px;
+            }
+
+            a {
+                font-family: 'DM Serif Display', serif;
+                color: #CD8D7A
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+           .project {
+            margin-bottom: 20px;
+            margin-left: 20px;
+            }
+
+            @media (max-width: 800px) {
+               .container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            <h1>&nbsp;Jorian's portfolio</h1>
+            <h2>&nbsp;My CSS web development projects</h2>
+           </div>
+        <div class="container">
+       <div class="Motivational-Poster project">
+        <a href="./poster.html">Motivational poster</a>
+        <br />
+        <img src="./Image Motivational Poster.png" alt="Motivational poster project" height="200">
+       </div>
+       <div class="Flag project">
+         <a href="./flag.html">Flag project</a>
+         <br />
+        <img src="./Image Flag Project.png" alt="Flag project" height="250">
+       </div>
+       <div class="Mondrian-painting project">
+        <a href="./Mondrian.html">Mondrian project</a>
+        <br />
+        <img src="./Mondrian painting project.png"  alt="Mondrian project" height="300">
+       </div>
+       <div class="TinDog project">
+        <a href="./tindog.html">TinDog project</a>
+        <br />
+        <img src="./Image TinDog project.png" alt="TinDog project" height="200">
+       </div>
+    </div>
+        <hr />
+    </body>
+</html>
